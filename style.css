@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+nav button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+.portfolio-grid div {
+  background-color: #eee;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+form button {
+  padding: 10px 20px;
+}
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
